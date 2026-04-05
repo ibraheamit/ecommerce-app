@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@shopwave.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2024-02-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Sony WH-1000XM5 Wireless Headphones",
+      "price": 349.99,
+      "category": "Electronics",
+      "description": "Industry-leading noise canceling headphones with 30-hour battery life and premium sound quality.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+      "rating": 4.8,
+      "stock": 45,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Apple MacBook Air M2",
+      "price": 1099.99,
+      "category": "Electronics",
+      "description": "Apple M2 chip, 8GB RAM, 256GB SSD, 13.6-inch Liquid Retina display.",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500&q=80",
+      "rating": 4.9,
+      "stock": 20,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Samsung 4K OLED Smart TV 55\"",
+      "price": 899.99,
+      "category": "Electronics",
+      "description": "55-inch 4K OLED display with Tizen OS, HDR10+, and built-in Alexa.",
+      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=500&q=80",
+      "rating": 4.7,
+      "stock": 15,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Canon EOS R50 Mirrorless Camera",
+      "price": 679.99,
+      "category": "Electronics",
+      "description": "24.2MP APS-C sensor, 4K video, DIGIC X processor, Wi-Fi & Bluetooth.",
+      "image": "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?w=500&q=80",
+      "rating": 4.6,
+      "stock": 30,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "iPad Pro 12.9-inch M2",
+      "price": 1099,
+      "category": "Electronics",
+      "description": "Apple M2 chip, Liquid Retina XDR display, Thunderbolt 4, Face ID.",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80",
+      "rating": 4.8,
+      "stock": 25,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Logitech MX Master 3S Mouse",
+      "price": 99.99,
+      "category": "Electronics",
+      "description": "Ergonomic wireless mouse with 8K DPI, MagSpeed scroll, quiet clicks.",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&q=80",
+      "rating": 4.7,
+      "stock": 80,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": 1199.99,
+      "category": "Electronics",
+      "description": "200MP camera, built-in S Pen, Snapdragon 8 Gen 3, 6.8\" QHD+ display.",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&q=80",
+      "rating": 4.8,
+      "stock": 35,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "title": "Men's Premium Slim-Fit Suit",
+      "price": 249.99,
+      "category": "Clothing",
+      "description": "Italian wool-blend slim-fit suit with modern cut, available in navy and charcoal.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4b4288?w=500&q=80",
+      "rating": 4.5,
+      "stock": 50,
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Women's Cashmere Turtleneck Sweater",
+      "price": 129.99,
+      "category": "Clothing",
+      "description": "100% pure cashmere turtleneck in classic neutral tones, ultra-soft finish.",
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&q=80",
+      "rating": 4.7,
+      "stock": 60,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Classic White Oxford Shirt",
+      "price": 59.99,
+      "category": "Clothing",
+      "description": "Tailored Oxford shirt in premium Egyptian cotton, perfect for business or casual wear.",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80",
+      "rating": 4.4,
+      "stock": 100,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Women's Running Sneakers",
+      "price": 89.99,
+      "category": "Clothing",
+      "description": "Lightweight, breathable running shoes with responsive foam cushioning.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+      "rating": 4.6,
+      "stock": 75,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "title": "Men's Slim Chino Pants",
+      "price": 49.99,
+      "category": "Clothing",
+      "description": "Stretch slim-fit chinos in a range of versatile colors. Machine washable.",
+      "image": "https://images.unsplash.com/photo-1490553481831-a27cf2a5b5d7?w=500&q=80",
+      "rating": 4.3,
+      "stock": 90,
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Leather Crossbody Bag",
+      "price": 119.99,
+      "category": "Clothing",
+      "description": "Genuine leather crossbody bag with adjustable strap and multiple compartments.",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80",
+      "rating": 4.6,
+      "stock": 40,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "Wool-Blend Overcoat",
+      "price": 199.99,
+      "category": "Clothing",
+      "description": "Mid-length wool overcoat with notched lapels and satin lining. Perfect for cold weather.",
+      "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500&q=80",
+      "rating": 4.5,
+      "stock": 35,
+      "featured": true
+    },
+    {
+      "id": 15,
+      "title": "Atomic Habits — James Clear",
+      "price": 16.99,
+      "category": "Books",
+      "description": "The proven framework for improving every day. Tiny changes, remarkable results.",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80",
+      "rating": 4.9,
+      "stock": 200,
+      "featured": true
+    },
+    {
+      "id": 16,
+      "title": "The Psychology of Money",
+      "price": 14.99,
+      "category": "Books",
+      "description": "Timeless lessons on wealth, greed, and happiness by Morgan Housel.",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&q=80",
+      "rating": 4.8,
+      "stock": 150,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "title": "Deep Work — Cal Newport",
+      "price": 13.99,
+      "category": "Books",
+      "description": "Rules for focused success in a distracted world.",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&q=80",
+      "rating": 4.7,
+      "stock": 180,
+      "featured": false
+    },
+    {
+      "id": 18,
+      "title": "The Design of Everyday Things",
+      "price": 19.99,
+      "category": "Books",
+      "description": "A groundbreaking book on psychology and design by Don Norman.",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&q=80",
+      "rating": 4.6,
+      "stock": 120,
+      "featured": true
+    },
+    {
+      "id": 19,
+      "title": "Thinking, Fast and Slow",
+      "price": 15.99,
+      "category": "Books",
+      "description": "Daniel Kahneman's exploration of the two systems that drive the way we think.",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&q=80",
+      "rating": 4.8,
+      "stock": 160,
+      "featured": false
+    },
+    {
+      "id": 20,
+      "title": "The Lean Startup",
+      "price": 12.99,
+      "category": "Books",
+      "description": "How today's entrepreneurs use continuous innovation to create successful businesses.",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=500&q=80",
+      "rating": 4.5,
+      "stock": 140,
+      "featured": false
+    },
+    {
+      "id": 21,
+      "title": "Zero to One — Peter Thiel",
+      "price": 13.49,
+      "category": "Books",
+      "description": "Notes on startups, or how to build the future.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&q=80",
+      "rating": 4.6,
+      "stock": 130,
+      "featured": false
+    },
+    {
+      "id": 22,
+      "title": "Dyson V15 Detect Cordless Vacuum",
+      "price": 699.99,
+      "category": "Home & Kitchen",
+      "description": "Laser dust detection, 60-minute runtime, HEPA filtration. The most powerful Dyson ever.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
+      "rating": 4.8,
+      "stock": 25,
+      "featured": true
+    },
+    {
+      "id": 23,
+      "title": "Instant Pot Pro 10-in-1",
+      "price": 129.99,
+      "category": "Home & Kitchen",
+      "description": "Pressure cooker, slow cooker, rice cooker, yogurt maker, steamer, and more.",
+      "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500&q=80",
+      "rating": 4.7,
+      "stock": 60,
+      "featured": true
+    },
+    {
+      "id": 24,
+      "title": "Nespresso Vertuo Next Coffee Machine",
+      "price": 179.99,
+      "category": "Home & Kitchen",
+      "description": "Barista-quality coffee at home. Centrifusion technology, 5 cup sizes.",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500&q=80",
+      "rating": 4.6,
+      "stock": 45,
+      "featured": false
+    },
+    {
+      "id": 25,
+      "title": "KitchenAid Stand Mixer 5Qt",
+      "price": 449.99,
+      "category": "Home & Kitchen",
+      "description": "5-quart bowl-lift stand mixer with 10 speeds and over 10 optional attachments.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80",
+      "rating": 4.9,
+      "stock": 20,
+      "featured": true
+    },
+    {
+      "id": 26,
+      "title": "Bamboo Cutting Board Set",
+      "price": 39.99,
+      "category": "Home & Kitchen",
+      "description": "Set of 3 eco-friendly bamboo cutting boards with juice grooves and handles.",
+      "image": "https://images.unsplash.com/photo-1630844280604-8c5c27e40dd0?w=500&q=80",
+      "rating": 4.5,
+      "stock": 120,
+      "featured": false
+    },
+    {
+      "id": 27,
+      "title": "Nordic Ceramic Dinner Set (12pc)",
+      "price": 89.99,
+      "category": "Home & Kitchen",
+      "description": "12-piece Nordic-inspired ceramic dinner set with plates, bowls, and mugs.",
+      "image": "https://images.unsplash.com/photo-1589300483823-7210d3791e2f?w=500&q=80",
+      "rating": 4.4,
+      "stock": 55,
+      "featured": false
+    },
+    {
+      "id": 28,
+      "title": "Aromatherapy Essential Oil Diffuser",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "description": "Ultrasonic mist diffuser with 7-color LEDs, 500ml tank, and auto shut-off.",
+      "image": "https://images.unsplash.com/photo-1602928309019-f6a6b38a4a3e?w=500&q=80",
+      "rating": 4.5,
+      "stock": 90,
+      "featured": false
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "products": [
+        {
+          "productId": 1,
+          "title": "Sony WH-1000XM5 Wireless Headphones",
+          "price": 349.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80"
+        },
+        {
+          "productId": 15,
+          "title": "Atomic Habits — James Clear",
+          "price": 16.99,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80"
+        }
+      ],
+      "totalPrice": 383.97,
+      "status": "completed",
+      "shippingAddress": "123 Main St, New York, NY 10001",
+      "createdAt": "2024-03-15T10:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "products": [
+        {
+          "productId": 25,
+          "title": "KitchenAid Stand Mixer 5Qt",
+          "price": 449.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80"
+        }
+      ],
+      "totalPrice": 449.99,
+      "status": "pending",
+      "shippingAddress": "456 Oak Ave, Los Angeles, CA 90001",
+      "createdAt": "2024-03-20T14:00:00.000Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 7
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "productId": 25
+    }
+  ]
+}
