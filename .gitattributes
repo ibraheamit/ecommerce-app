@@ -1,0 +1,5 @@
+*.html linguist-detectable=false
+*.json linguist-detectable=false
+package-lock.json linguist-detectable=false
+
+*.ts linguist-detectable=true
